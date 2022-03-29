@@ -1,0 +1,12 @@
+iframe {
+  border: none;
+  width: 100%;
+  height: calc(100vw * 0.55);
+  max-height: 660px;
+}
+
+@media (min-width: 1200px) {
+  iframe {
+    height: 100%;
+  }
+}

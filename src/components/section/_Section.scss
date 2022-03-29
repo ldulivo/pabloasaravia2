@@ -1,0 +1,30 @@
+.Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+
+  &--primary {
+    background: $primary;
+  }
+
+  &--secondary {
+    background: $secondary;
+  }
+
+  &--black {
+    background: $black;
+  }
+
+  &--red {
+    background: $red;
+  }
+
+  &--blue {
+    background: $blue;
+  }
+
+  &--green {
+    background: $green;
+  }
+}

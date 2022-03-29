@@ -1,0 +1,10 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: $blue + 20;
+  a {
+    color: $black;
+    margin-right: 10px;
+  }
+}

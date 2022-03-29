@@ -1,0 +1,41 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px 0 10px;
+
+  &--transparent {
+    background: transparent;
+  }
+
+  &--primary {
+    background: $primary;
+  }
+
+  &--secondary {
+    background: $secondary;
+  }
+
+  &--black {
+    background: $black;
+  }
+
+  &--red {
+    background: $red;
+  }
+
+  &--blue {
+    background: $blue;
+  }
+
+  &--green {
+    background: $green;
+  }
+
+  &--align {
+    &-center {
+      align-items: center;
+    }
+  }
+}
